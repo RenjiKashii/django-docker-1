@@ -95,3 +95,9 @@ docker-compose up
 # バックグランドでコンテナを実行する場合
 docker-compose up -d
 ```
+
+# 6. 参考サイト
+
+[本堂俊輔の IT エンジニアチャネル | django チュートリアル](https://www.youtube.com/watch?v=nS41IkL13QE&list=PLuCS8p0T7ozK4Ne1e5eAVG2R5Gbs1naix&ab_channel=%E6%9C%AC%E5%A0%82%E4%BF%8A%E8%BC%94%E3%81%AEIT%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB)
+
+[Very Academy | Docker Mastery with Django](https://www.youtube.com/watch?v=W5Ov0H7E_o4&list=PLOLrQ9Pn6cazCfL7v4CdaykNoWMQymM_C&ab_channel=VeryAcademy)
