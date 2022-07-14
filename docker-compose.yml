@@ -8,7 +8,11 @@ services:
     ports:
       - 8000:8000
     container_name: django_container
-    command: python manage.py runserver 0.0.0.0:8000
+    command: >
+      bash -c '
+        nohup python3 manage.py tailwind start &
+        python3 manage.py runserver 0.0.0.0:8000
+      '
     links:
       - mysql
     depends_on:

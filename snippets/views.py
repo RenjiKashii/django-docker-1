@@ -1,4 +1,5 @@
-from django.contrib.auth.decorators import require_safe, login_required, require_http_methods
+from django.contrib.auth.decorators import login_required
+from django.views.decorators.http import require_safe, require_http_methods
 from django.shortcuts import render, redirect, get_object_or_404
 
 from . import models, form

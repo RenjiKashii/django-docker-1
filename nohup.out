@@ -1,0 +1,88 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 14, 2022 - 19:30:29
+Django version 4.0.6, using settings 'core.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 14, 2022 - 19:39:33
+Django version 4.0.6, using settings 'core.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 414, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 460, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/tailwind/management/commands/tailwind.py", line 54, in handle
+    return self.handle_labels(*labels, **options)
+  File "/usr/local/lib/python3.8/site-packages/tailwind/management/commands/tailwind.py", line 62, in handle_labels
+    getattr(self, "handle_" + labels[0].replace("-", "_") + "_command")(*labels[1:], **options)
+TypeError: handle_start_command() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 414, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 460, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/tailwind/management/commands/tailwind.py", line 54, in handle
+    return self.handle_labels(*labels, **options)
+  File "/usr/local/lib/python3.8/site-packages/tailwind/management/commands/tailwind.py", line 62, in handle_labels
+    getattr(self, "handle_" + labels[0].replace("-", "_") + "_command")(*labels[1:], **options)
+TypeError: handle_start_command() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 414, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 460, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/tailwind/management/commands/tailwind.py", line 54, in handle
+    return self.handle_labels(*labels, **options)
+  File "/usr/local/lib/python3.8/site-packages/tailwind/management/commands/tailwind.py", line 62, in handle_labels
+    getattr(self, "handle_" + labels[0].replace("-", "_") + "_command")(*labels[1:], **options)
+TypeError: handle_start_command() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 414, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.8/site-packages/django/core/management/base.py", line 460, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.8/site-packages/tailwind/management/commands/tailwind.py", line 54, in handle
+    return self.handle_labels(*labels, **options)
+  File "/usr/local/lib/python3.8/site-packages/tailwind/management/commands/tailwind.py", line 62, in handle_labels
+    getattr(self, "handle_" + labels[0].replace("-", "_") + "_command")(*labels[1:], **options)
+TypeError: handle_start_command() takes 1 positional argument but 2 were given

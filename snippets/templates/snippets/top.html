@@ -1,10 +1,12 @@
+{% load tailwind_tags %}
 <html>
   <head>
     <meta charset="utf-8" />
     <title>Djangoスニペット</title>
+    {% tailwind_css %}
   </head>
-  <body>
-    <h1>ようこそDjangoスニペットへ！</h1>
+  <body class="bg-indigo-500">
+    <h1 class="text-sky-400">ようこそDjangoスニペットへ！</h1>
     <h2>スニペット一覧</h2>
     {% if snippets %}
     <table class="table">

@@ -1,2 +1,9 @@
 docker build --tag python-django .
 docker run --publish 8000:8000 python-django
+
+# build
+docker-compose build
+docker-compose up -d mysql
+sleep 10
+docker-compose up -d app
+docker-compose run --rm app python3 manage.py tailwind start

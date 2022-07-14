@@ -24,4 +24,5 @@ urlpatterns = [
     path('website/', include('website.urls')),
     path('snippets/', include('snippets.urls')),
     path('', views.home),
+    path("__reload__/", include("django_browser_reload.urls")),
 ]
