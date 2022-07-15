@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T23:12:07.595Z" agent="5.0 (iPad; CPU OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/103.0.5060.63 Mobile/15E148 Safari/604.1" version="20.1.1" etag="8wIRFXZjQjid3EPG2gIu" type="github"><diagram id="8_v6daA8wSkZLcTRC9qF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-15T23:53:06.375Z" agent="5.0 (iPad; CPU OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/103.0.5060.63 Mobile/15E148 Safari/604.1" etag="59ZoUdoptB6ngImp7mTE" version="20.1.1" type="github">
+  <diagram id="8_v6daA8wSkZLcTRC9qF" name="Page-1">
+    <mxGraphModel dx="868" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-2" value="&lt;b&gt;container&lt;/b&gt;&lt;br&gt;app:django" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-3" value="&lt;b&gt;container&lt;/b&gt;&lt;br&gt;mysql:5.7" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
