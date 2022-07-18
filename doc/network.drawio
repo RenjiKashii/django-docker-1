@@ -1,14 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T23:53:06.375Z" agent="5.0 (iPad; CPU OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/103.0.5060.63 Mobile/15E148 Safari/604.1" etag="59ZoUdoptB6ngImp7mTE" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T12:59:25.704Z" agent="5.0 (iPad; CPU OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/103.0.5060.63 Mobile/15E148 Safari/604.1" etag="ZXI8jPm6gFrNkYl3ypZC" version="20.1.1" type="github">
   <diagram id="8_v6daA8wSkZLcTRC9qF" name="Page-1">
     <mxGraphModel dx="868" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5bLqrxqlI68mcoZM-jZa-2" value="&lt;b&gt;container&lt;/b&gt;&lt;br&gt;app:django" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-9" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;app-network" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5bLqrxqlI68mcoZM-jZa-2" target="5bLqrxqlI68mcoZM-jZa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-2" value="&lt;b&gt;container&lt;/b&gt;&lt;br&gt;app:django" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5bLqrxqlI68mcoZM-jZa-3" value="&lt;b&gt;container&lt;/b&gt;&lt;br&gt;mysql:5.7" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-5" value="&lt;h1&gt;none&lt;/h1&gt;&lt;p&gt;default `none` network.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-6" value="&lt;b&gt;container&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-10" value="docker0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-11" value="&lt;b&gt;container&lt;/b&gt;&lt;br&gt;mysql:5.7" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5bLqrxqlI68mcoZM-jZa-12" value="docker0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="120" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
