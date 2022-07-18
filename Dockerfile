@@ -6,7 +6,8 @@ RUN apt-get update && \
     apt-get install -y default-libmysqlclient-dev build-essential zip unzip curl && \
     rm -rf /var/lib/apt/lists/*
 RUN pip3 install --upgrade pip && \
-    pip3 install -r requirements.txt
+    pip3 install -r requirements.txt && \
+    pip3 install uwsgi
 RUN curl -fsSL https://deb.nodesource.com/setup_17.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install npm@latest -g
